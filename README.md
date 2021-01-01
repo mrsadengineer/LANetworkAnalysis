@@ -42,8 +42,8 @@ update or add  CHANGELOG file
 added to github  (documentation below)   
 git branch -m main  
 git branch -a  
-git remote add origin https://github.com/msadengineer/RustExplore.git  
-git branch -M main  
+git remote add origin https://github.com/msadengineer/LANetworkAnalysis.git  
+ 
 git push -u origin main  
 
 
