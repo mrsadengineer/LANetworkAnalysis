@@ -1,0 +1,59 @@
+
+
+
+
+
+check internet connection in CMD
+    enables you to ping the specified address forever until it’s manually stopped. For instance, we typed “ping -t
+    ping <site> 
+    ping <site> -t
+
+
+
+
+
+see all the network adapters on my computer using CMD
+    ipconfig 
+        -default gateway IP addresses
+        -subnet masks
+        -state of each adapter 
+    ipconfig /all
+        -DNS information
+        -MAC (MEDIA ACCESS CONTROL)
+
+check your network connection in CMD
+    ipconfig
+    ping <defaultserver>
+    (% loss shows how the network connection is testing.)
+
+renew the IP address of your network adapter
+    ipconfig /release
+    ipconfig /renew
+
+get nic info about your network adapter’s MAC addresses
+    getmac
+
+see the computers and devices connected to my network using CMD?
+    net view
+
+see all the devices connected to my network using CMD?
+    arp -a
+
+check your computer’s network connections and open ports
+    netstat
+        tcp/udp sessions
+    netstat -a
+
+
+
+
+
+
+
+
+
+
+######notes
+The next ones are not real devices, but IP addresses used for multicasting. They are commonly used by your real devices for streaming media on your network. In our example, the devices connected to the same network as our computer are all the ones that have IP addresses starting with 192.168.50.
+
+If you want to see what those devices are, in a more human-friendly way, copy their MAC addresses and look them up on the internet using Google or on websites that let you check which vendors assign certain MAC addresses, such as DNS Checker. For instance, if you’re looking for the MAC address 04-d9-f5-b5-b1-f0, you find that it’s a device made by ASUS. In truth, it’s an ASUS ZenWiFi router.

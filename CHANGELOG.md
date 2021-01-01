@@ -1,14 +1,16 @@
 
-<a name="0.1.2"></a>
+<a name="0.1.3"></a>
 
-## 0.1.2 (2020-12-31)
+## 0.1.3 (2020-01-01)
 ### Features
 * **Rust-Testing:** check ipconfig 
+* **NetworkConnectionStatus:** check several known ip addresses.
 
 ### Added
 * **primativeexample.rs:** set of examples with primatives to Rust. 
 * **other.rs:** testing modules in rust
 * **checknetwork.rs:** testing std::process::commands
+* **todo:** document for tracking goals and todos for this project.
 
 <a name="0.1.1"></a>
 
