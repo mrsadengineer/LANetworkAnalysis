@@ -1,6 +1,6 @@
 use std::process::Command;
 
-fn callPingCommand(ipstrnp: String) {
+fn call_ping_command(ipstrnp: String) {
     println!("{}", ipstrnp);
     let mut cmd = Command::new("ping");
     cmd.arg(ipstrnp);
@@ -48,22 +48,22 @@ pub fn pingrangeall() {
 
     // println!(ipad1String);
 
-    callPingCommand(ipstr00);
-    callPingCommand(ipstr01);
-    callPingCommand(ipstr02);
-    callPingCommand(ipstr03);
-    callPingCommand(ipstr04);
-    callPingCommand(ipstr05);
-    callPingCommand(ipstr06);
-    callPingCommand(ipstr07);
-    callPingCommand(ipstr08);
-    callPingCommand(ipstr09);
-    callPingCommand(ipstr10);
-    callPingCommand(ipstr11);
-    callPingCommand(ipstr12);
-    callPingCommand(ipstr13);
-    callPingCommand(ipstr14);
-    callPingCommand(ipstr15);
-    callPingCommand(ipstr16);
+    call_ping_command(ipstr00);
+    call_ping_command(ipstr01);
+    call_ping_command(ipstr02);
+    call_ping_command(ipstr03);
+    call_ping_command(ipstr04);
+    call_ping_command(ipstr05);
+    call_ping_command(ipstr06);
+    call_ping_command(ipstr07);
+    call_ping_command(ipstr08);
+    call_ping_command(ipstr09);
+    call_ping_command(ipstr10);
+    call_ping_command(ipstr11);
+    call_ping_command(ipstr12);
+    call_ping_command(ipstr13);
+    call_ping_command(ipstr14);
+    call_ping_command(ipstr15);
+    call_ping_command(ipstr16);
 
 }

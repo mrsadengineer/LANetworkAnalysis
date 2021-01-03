@@ -1,16 +1,8 @@
 
-
-
-
-
 check internet connection in CMD
     enables you to ping the specified address forever until it’s manually stopped. For instance, we typed “ping -t
     ping <site> 
     ping <site> -t
-
-
-
-
 
 see all the network adapters on my computer using CMD
     ipconfig 

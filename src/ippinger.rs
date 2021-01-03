@@ -1,8 +1,9 @@
 use std::process::Command;
 
+#[allow(dead_code)]
 pub fn pingrange() {
     let mut ipstr: String = "192.168.0.".to_owned();
-    let ipad0: &str = "0";
+    //let ipad0: &str = "0";
     let ipad1: &str = "1";
 
     ipstr.push_str(ipad1);

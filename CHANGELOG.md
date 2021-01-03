@@ -1,3 +1,8 @@
+<a name="0.1.4"></a>
+
+## 0.1.4 (2020-01-02)
+### Added
+* **output_slicing:** parsing std output for ipconfig 
 
 <a name="0.1.3"></a>
 
